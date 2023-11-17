@@ -10,7 +10,7 @@
 
 html {
   font-size: 100%;
-} /*16px*/
+}
 
 :root {
   /* colors */
@@ -70,13 +70,6 @@ html {
       ease-in-out;
 }
 
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --textColor: var(--dark-mode-text-color);
-    --backgroundColor: var(--dark-mode-bg-color);
-  }
-} */
-
 .dark-theme {
   --textColor: var(--dark-mode-text-color);
   --backgroundColor: var(--dark-mode-bg-color);
@@ -129,28 +122,6 @@ h4 {
 h5 {
   font-size: clamp(0.875rem, 1.5vw, 1.5rem); /* Tiny heading */
 }
-
-/* BIGGER FONTS */
-/* h1 {
-  font-size: clamp(3rem, 6vw, 6rem);
-}
-
-h2 {
-  font-size: clamp(2.5rem, 5vw, 5rem);
-}
-
-h3 {
-  font-size: clamp(2rem, 4vw, 4rem);
-}
-
-h4 {
-  font-size: clamp(1.5rem, 3vw, 3rem);
-}
-
-h5 {
-  font-size: clamp(1rem, 2vw, 2rem);
-}
- */
 
 .text {
   margin-bottom: 1.5rem;
@@ -296,18 +267,6 @@ ul {
   margin: 0 auto;
   margin-top: 1rem;
 }
-
-/* 
-========
-PROJECT CSS
-========
-*/
-
-/* 
-========
-Toggle Container
-========
-*/
 
 .toggle-container {
   width: var(--view-width);
